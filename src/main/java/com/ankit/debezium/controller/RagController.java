@@ -1,9 +1,9 @@
-package com.ankit.zerodha.controller;
+package com.ankit.debezium.controller;
 
-import com.ankit.zerodha.model.QueryRequest;
-import com.ankit.zerodha.model.QueryResponse;
-import com.ankit.zerodha.service.DocumentIngestionService;
-import com.ankit.zerodha.service.RagService;
+import com.ankit.debezium.model.QueryRequest;
+import com.ankit.debezium.model.QueryResponse;
+import com.ankit.debezium.service.DocumentIngestionService;
+import com.ankit.debezium.service.RagService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

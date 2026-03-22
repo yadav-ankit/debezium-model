@@ -1,4 +1,4 @@
-package com.ankit.zerodha;
+package com.ankit.debezium;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

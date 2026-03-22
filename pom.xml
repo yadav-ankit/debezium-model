@@ -11,7 +11,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.ankit.zerodha</groupId>
+    <groupId>com.ankit.debezium</groupId>
     <artifactId>debezium-model</artifactId>
     <version>1.0-SNAPSHOT</version>
 

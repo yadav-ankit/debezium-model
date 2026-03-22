@@ -1,7 +1,7 @@
-package com.ankit.zerodha.service;
+package com.ankit.debezium.service;
 
-import com.ankit.zerodha.model.QueryRequest;
-import com.ankit.zerodha.model.QueryResponse;
+import com.ankit.debezium.model.QueryRequest;
+import com.ankit.debezium.model.QueryResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.chat.messages.SystemMessage;
 import org.springframework.ai.chat.messages.UserMessage;

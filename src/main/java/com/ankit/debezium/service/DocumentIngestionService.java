@@ -1,4 +1,4 @@
-package com.ankit.zerodha.service;
+package com.ankit.debezium.service;
 
 import jakarta.annotation.PostConstruct;
 import lombok.extern.slf4j.Slf4j;
