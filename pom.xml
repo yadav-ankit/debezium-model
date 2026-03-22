@@ -41,10 +41,10 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- Spring AI - OpenAI (chat + embeddings) -->
+        <!-- Spring AI - Ollama (chat + embeddings, runs locally for free) -->
         <dependency>
             <groupId>org.springframework.ai</groupId>
-            <artifactId>spring-ai-openai-spring-boot-starter</artifactId>
+            <artifactId>spring-ai-ollama-spring-boot-starter</artifactId>
             <version>${spring-ai.version}</version>
         </dependency>
 

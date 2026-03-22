@@ -3,20 +3,19 @@ spring:
     name: debezium-rag
 
   ai:
-    openai:
-      api-key: ${OPENAI_API_KEY}
+    ollama:
+      base-url: http://localhost:11434
       chat:
         options:
-          model: gpt-4o-mini
-          temperature: 0.2
+          model: llama3.2
       embedding:
         options:
-          model: text-embedding-3-small
+          model: nomic-embed-text
 
 server:
   port: 8080
 
 logging:
   level:
-    com.ankit.zerodha: INFO
+    com.ankit.debezium: INFO
     org.springframework.ai: INFO
